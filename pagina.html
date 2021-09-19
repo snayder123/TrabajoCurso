@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Pagina web de Ferreteria</title>
+</head>
+
+<body style="background-color:#DAF7A6;">
+    <center ><u  style="color: red;"><h1 > Pagina web de una Ferreteria</h1></u>
+<H1>Sea bienvenido a mi pagina web sobre producto de una ferreteria con  la ayuda de un chatbot</H1>
+<br>
+</center>
+<h2   style="color: #1C2833   " align="center">MUCHAS GRACIAS POR ELEGIRNOS LE ASEGURAMOS LA MEJOR CALIDAD Y LA MEJOR ATENCION PÁRA TODOS NUESTROS CLIENTES</h2>
+<br>
+<center><img src="img/1.PNG" class="img-fluid" alt="...">
+
+
+
+</center>
+
+
+</body>
+</html>
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "bb6cf876-deb7-4f4a-b766-c425eb652ab2", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "1ed6f95a-68a8-4cca-96e0-6bc8f111fc00", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+      (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+      "/WatsonAssistantChatEntry.js"
+    document.head.appendChild(t);
+  });
+</script>
